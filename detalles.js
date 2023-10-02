@@ -9,7 +9,6 @@ const mostrarProducto = document.querySelector("#producto-elegido");
 destacado.forEach((productos) => 
     {
     let content = document.createElement("div");
-    content.className = "card2";
     content.innerHTML = `
     <div class"item">
         <figure>

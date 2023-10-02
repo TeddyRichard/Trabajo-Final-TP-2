@@ -32,7 +32,6 @@ cargarProductos();
 productos.forEach((productos) => 
 {
   let content = document.createElement("div");
-  content.className = "card";
   content.innerHTML = `
   <div class="item">
   <figure>
